@@ -7,7 +7,7 @@ function TodoPost(e){
     e.preventDefault();
 
     var to_do= document.getElementById("todoText").value;
-    //alert(to_do)  //test
+
     var list = document.getElementById("TodoList")
     
     var div = document.createElement("div");
